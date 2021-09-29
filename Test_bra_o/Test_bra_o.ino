@@ -48,28 +48,28 @@ void loop() {
 
   Input = acAngle_y;
 
-//  Serial.print("Referencia:");
-//  Serial.print(Setpoint);
-//  Serial.print(" ");
-//  Serial.print("angle:");
-//  Serial.print(acAngle_y);
-//  Serial.print(" ");
-//  Serial.print("PID:");
-//  Serial.print(Output);
-//  Serial.println(); 
+  Serial.print("Referencia:");
+  Serial.print(Setpoint);
+  Serial.print(" ");
+  Serial.print("angle:");
+  Serial.print(acAngle_y);
+  Serial.print(" ");
+  Serial.print("PID:");
+  Serial.print(Output);
+  Serial.println(); 
 //  myPID.Compute(); 
 //  motor.write(Output);
 // Teste{ -----------------------------------------------
-  if (Serial.available()>0){
-    pwm_motor = Serial.parseInt();
-    Serial.print("Angle:");
-    Serial.print(acAngle_y);
-    Serial.print(" ");
-    Serial.print("PWM:");
-    Serial.println(pwm_motor);
-  }
-  
-  motor.write(pwm_motor);
-  delay(2000);
+//  if (Serial.available()>0){
+//    pwm_motor = Serial.parseInt();
+//    Serial.print("Angle:");
+//    Serial.print(acAngle_y);
+//    Serial.print(" ");
+//    Serial.print("PWM:");
+//    Serial.println(pwm_motor);
+//  }
+//  
+//  motor.write(pwm_motor);
+//  delay(2000);
  //} ----------------------------------------------- 
 }
