@@ -1,0 +1,9 @@
+Lista com firmwares de controladoras open Source:
+
+https://github.com/ArduPilot
+
+https://github.com/emuflight
+
+https://github.com/betaflight
+
+https://github.com/iNavFlight

@@ -1,0 +1,13 @@
+Requisitos de Projeto para uma Controladora de Voo:
+
+-Microcontrolador STM32F4 ou superior (necessário: 2MB de flash)
+
+-IMU (Gyro + Accel + Mag)
+
+- Oscilador (8MHz)
+
+- Regulador de tensão 3.3V
+
+- Resistores (SMD 0402)
+
+- Capacitor (SMD 0805)
